@@ -1,0 +1,169 @@
+body {
+    background: #e9e8e4;
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: 0.3fr 0.1fr 0.3fr 0.1fr 0.3fr;
+    grid-template-rows: 75px 75px 50px 200px 50px 600px 50px 810px;
+    justify-content: center;
+    margin: 20px 50px 5px 50px;
+    background-color: #e9e8e4;
+}
+header {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    background: #4d75a3;
+    border-radius: 8px 8px 0px 0px;
+}
+nav {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: white;
+    border-radius: 0px 0px 8px 8px;
+}
+
+/* Описание профайла*/
+#profile {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background: white;
+    border-radius: 8px;
+ }
+
+#profile_body {
+    display: grid;
+    grid-template-columns: 0.13fr 0.2fr 0.1fr 0.38fr 0.1fr 0.21fr;
+    grid-template-rows: 100px 100px;
+
+}
+
+#avatar {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: flex;
+    padding: 60px 0px 45px 50px;
+}
+
+#john_doe {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    justify-items: center;
+    margin-left: 25px;
+    color: #3f4f5f;
+}
+
+#text {
+     grid-column-start: 2;
+     grid-column-end: 3;
+     grid-row-start: 2;
+     grid-row-end: 3;
+     display: flex;
+     justify-items: center;
+     margin-left: 25px;
+     color: #97a3b1;
+     min-width: 100px;
+ }
+
+#line {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-left: 1px solid #e5e5e5;
+    margin: 50px 0;
+}
+
+#stats {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-left: 30px;
+}
+#stats_bottom {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-left: 30px;
+}
+#auto {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+/* Разметка поля активности*/
+#activity_feed {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background: white;
+    border-radius: 8px;
+    display: flex;
+    min-width: 350px;
+}
+#activity_feed_body {
+    display: grid;
+    width: 100%;
+    grid-template-rows: 100px 20px 100px 20px 60px 20px 25px 20px 25px 25px auto 50px;
+}
+
+#suggestions {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background: white;
+    border-radius: 8px;
+    min-width: 300px;
+}
+#chat {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background: white;
+    border-radius: 8px;
+}
+#dialogues {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    background: white;
+    border-radius: 8px;
+    min-width: 1000px;
+}
+
+#dialogues_body {
+    display: grid;
+    grid-template-columns: 0.3fr 0.7fr;
+}
+
+#dialogues_body_left {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+#dialogues_body_right {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
