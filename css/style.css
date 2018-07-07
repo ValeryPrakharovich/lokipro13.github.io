@@ -189,7 +189,6 @@ nav a:hover {
     margin-top: 30px;
     margin-left: 20px;
     font-size: 14pt;
-    font-family: "Open Sans";
     color: #a6a6a6;
 }
 #options {
@@ -209,14 +208,12 @@ nav a:hover {
     margin-top: 5px;
     grid-row-start: 3;
     grid-row-end: 4;
-    font-family: "Open Sans";
     font-size: 10pt;
  }
 #John {
     grid-row-start: 4;
     grid-row-end: 5;
     display: flex;
-    font-family: "Open Sans";
     font-size: 10pt;
 }
 #John_photos {
@@ -228,7 +225,6 @@ nav a:hover {
     grid-row-start: 6;
     grid-row-end: 7;
     display: flex;
-    font-family: "Open Sans";
     font-size: 10pt;
 }
 
@@ -251,7 +247,6 @@ nav a:hover {
     border-left: 1px solid #e0e0e0;
 }
 .photos li, .kevin_photos li {
-    font-family: "Open Sans";
     display: inline-block;
 }
 
@@ -259,14 +254,12 @@ nav a:hover {
     grid-row-start: 8;
     grid-row-end: 9;
     display: flex;
-    font-family: "Open Sans";
     font-size: 10pt;
 }
 #David {
     grid-row-start: 10;
     grid-row-end: 11;
     display: flex;
-    font-family: "Open Sans";
     font-size: 10pt;
 }
 
@@ -335,14 +328,12 @@ nav a:hover {
 #activity_feed_bottom a {
     text-decoration: none;
     color: #7595b9;
-    font-family: "Open Sans";
     font-size: 12pt;
 }
 
 /*Панель фаловеров*/
 #suggestions {
     font-size: 14pt;
-    font-family: "Open Sans";
     color: #a6a6a6;
 }
 
@@ -778,7 +769,7 @@ ul.dialogues_body_right_header {
 /* Чат диолога*/
 
 #dialogues_body_right_chat div {
-      display: flex;
+    display: flex;
 
 }
 .dial_body {
